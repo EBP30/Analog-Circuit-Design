@@ -22,3 +22,19 @@ Sine, triangle, and square wave outputs: 0 to 20Vpp, adjustable with the “Ampl
 Pulse Output:  0 to 10Vpk.  Source and sink 200mA.  Rise and fall time of the pulse waveform is to be < 100 
 nsec,  measured  with  1000  pFd  across  output.  The Pulse Output has its own “Amplitude” control.  The “Duty 
 Cycle” control applies to the pulse waveform only, and should adjust from approximately zero to 100%. 
+
+Mixed Signal modulator and demodulator: Design a circuit that will produce a PWM waveform that will be the digital representation of an input 
+signal.    This  waveform  will  be  sent  over  a  transmission  channel  to  a  receiver/converter  which  will 
+reconstruct the original signal. The transmitter and receiver will be coupled by an opto coupler which 
+will substitute for an optical fiber link or other digital transmission channel. 
+
+<img width="718" alt="image" src="https://user-images.githubusercontent.com/100106103/176565000-a7e02cd5-05c3-4c59-b868-302c326bd116.png">
+
+Lamp Dimmer and Flashing circuit: Designed and built a triac phase-control lamp dimmer that will drive a #194 lamp with full-wave AC.  
+Use the “13VAC” transformer as the only power supply; a separate power supply is not to be used to 
+power  the  control  circuitry. Lamp  brightness  is  to  be  controlled  by  a  potentiometer  and  must  be 
+adjustable  from  completely  OFF  to  full  ON. The flashing feature of the circuit does not simply turn on and off the power source but slowly dims to no brightness and full brightens with this control signal.
+<img width="833" alt="image" src="https://user-images.githubusercontent.com/100106103/176565368-e08072bd-5a7a-4ca6-b50d-ab6fb380af69.png">
+
+Motor Speed Controller: Built analog closed loop PID controller to act as a speed contoller often found in cruise control. Design included in addition to the circuitry a hand build digital encoder made from and IR LED and IR reciever to act as the speed basis to close the loop and measure motor speed. The controller used PWM modulation to drive a 
+
