@@ -38,3 +38,4 @@ adjustable  from  completely  OFF  to  full  ON. The flashing feature of the cir
 
 Motor Speed Controller: Built analog closed loop PID controller to act as a speed contoller often found in cruise control. Design included in addition to the circuitry a hand build digital encoder made from and IR LED and IR reciever to act as the speed basis to close the loop and measure motor speed. The controller used PWM modulation to drive a 
 
+Tracking Servo: Built servo controller with attached laser to find center of solar panel no matter where solar pannel i place within a 5ft radius of laser. The laser has a functionality of a searching mode in where it searches for solar panel, a found mode where it tracks the panel and a override feature that jogs the laser left and right. 
