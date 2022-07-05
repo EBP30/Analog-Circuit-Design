@@ -1,32 +1,30 @@
 # Analog-Circuit-Design
 A compilation of my analog circuit design
 
-Bouncing Ball Detector: a circuit that will reliably produce a single LED pulse every time a 3/8” 
-diameter steel ball is dropped Into the heavy plastic base from a height of about 4 inches. Locate the base 
-about 6 inches from the sensor, and place it in the provided paper plate to catch the ball. Only one LED 
-pulse must be produced with each drop of the  ball, and the ON time must be independent of the audio 
+Bouncing Ball Detector: Built a circuit that produces a single LED pulse every time a 3/8” 
+diameter steel ball is dropped onto the heavy plastic base from a height of about 4 inches. Only one LED 
+pulse is produced with each drop of the  ball, and the ON time is independent of the audio 
 pulse amplitude.
 
-Frequency Detector: Design and build a circuit which will light a #194 lamp when the frequency of an input sinewave 
-(from a function generator) is OUTSIDE of 1600 Hz to 2400 Hz, +/- 10%.  The lamp must be OFF when the 
+Frequency Detector: Designed and built a circuit which lights a #194 lamp when the frequency of an input sinewave 
+(from a function generator) is OUTSIDE of 1600 Hz to 2400 Hz, +/- 10%.  The lamp is OFF when the 
 frequency is within these limits.
 
-Function Generator: Design a “Function Generator” that produces sine, square, triangle, and pulse waveforms.  A sketch of 
+Function Generator: Designed a “Function Generator” that produces sine, square, triangle, and pulse waveforms.  A sketch of 
 an imaginary front panel is shown below
 
 <img width="696" alt="image" src="https://user-images.githubusercontent.com/100106103/176330531-3770ffd9-e5bc-459b-a035-b7e4bf64ce70.png">
 
 Sine, triangle, and square wave outputs: 0 to 20Vpp, adjustable with the “Amplitude” control.  Source and sink 
-50mA.  Rise and fall time of the square wave is to be < 100usec, measured with .01μFd across output
+50mA.  Rise and fall time of the square wave is < 100usec, measured with .01μFd across output
 
-Pulse Output:  0 to 10Vpk.  Source and sink 200mA.  Rise and fall time of the pulse waveform is to be < 100 
+Pulse Output:  0 to 10Vpk.  Source and sink 200mA.  Rise and fall time of the pulse waveform is < 100 
 nsec,  measured  with  1000  pFd  across  output.  The Pulse Output has its own “Amplitude” control.  The “Duty 
-Cycle” control applies to the pulse waveform only, and should adjust from approximately zero to 100%. 
+Cycle” control applies to the pulse waveform only, and adjusts from approximately zero to 100%. 
 
-Mixed Signal modulator and demodulator: Design a circuit that will produce a PWM waveform that will be the digital representation of an input 
-signal.    This  waveform  will  be  sent  over  a  transmission  channel  to  a  receiver/converter  which  will 
-reconstruct the original signal. The transmitter and receiver will be coupled by an opto coupler which 
-will substitute for an optical fiber link or other digital transmission channel. 
+Mixed Signal modulator and demodulator: Designed a circuit that produces a PWM waveform that will be the digital representation of an input 
+signal. This waveform is sent over a transmission channel to a receiver/converter which reconstructs the original signal.
+The transmitter and receiver will be coupled by an opto coupler which substitutes for an optical fiber link or other digital transmission channel. 
 
 <img width="718" alt="image" src="https://user-images.githubusercontent.com/100106103/176565000-a7e02cd5-05c3-4c59-b868-302c326bd116.png">
 
