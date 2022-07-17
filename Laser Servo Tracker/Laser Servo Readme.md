@@ -1,0 +1,1 @@
+Tracking Servo: Built servo controller with attached laser to find center of solar panel no matter where solar pannel i place within a 5ft radius of laser. The laser has a functionality of a searching mode in where it searches for solar panel, a found mode where it tracks the panel and a override feature that jogs the laser left and right.
