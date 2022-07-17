@@ -1,0 +1,1 @@
+Built analog closed loop PID controller to act as a speed contoller often found in cruise control. Design included in addition to the circuitry a hand build digital encoder made from and IR LED and IR reciever to act as the speed basis to close the loop and measure motor speed. The controller used PWM modulation to drive a
